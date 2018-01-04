@@ -52,7 +52,7 @@ export default {
     }[privilegeType];
   },
 
-  setServant(servant, rowIndex, columnIndex) {
-    privileges[rowIndex][columnIndex].servant = servant;
+  setServant(servant, rowIndex, privilegeType) {
+    privileges[rowIndex][privilegeType - 1].servant = servant;
   },
 };
