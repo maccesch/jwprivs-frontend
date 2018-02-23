@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <privilegePlan></privilegePlan>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello';
+import PrivilegePlan from './components/PrivilegePlan';
 
 export default {
   name: 'app',
   components: {
-    Hello
+    PrivilegePlan
   }
 };
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
 </style>
